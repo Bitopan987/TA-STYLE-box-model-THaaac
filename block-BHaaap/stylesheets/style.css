@@ -136,7 +136,7 @@ h1 {
   border: 1px solid #ff0000;
   background-color: #d18c1d;
   padding: 10px;
-  display: inline-block;
+  text-align: center;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -155,6 +155,8 @@ p {
   background-color: #a1a1a1;
   border-bottom: 3px dashed blue;
   text-decoration: none;
+  padding: 12px;
+  display: inline-block;
 }
 
 .circle {

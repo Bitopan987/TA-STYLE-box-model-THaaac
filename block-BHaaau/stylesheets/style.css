@@ -1,0 +1,239 @@
+/* Eric Marers Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+/* header */
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Sec-1 */
+
+.line {
+  width: 20rem;
+  border: none;
+  border-top: 2px solid rgb(207, 205, 205);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.color-box {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(197, 252, 233);
+  border: 0.7rem solid #46c5f7;
+  outline: 0.3rem solid black;
+  box-shadow: 0 0 0 1rem #f58484;
+  margin: 2rem auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+.yellow,
+.purple,
+.aqua,
+.black {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.black {
+  background-color: black;
+}
+
+/* Sec-2 */
+
+h5 {
+  font-size: 1.2rem;
+  margin-block: 1rem;
+}
+
+.child-box {
+  width: 180px;
+  height: 100px;
+  background-color: chartreuse;
+  display: inline-block;
+  margin: 10px;
+}
+
+.parent-box {
+  font-size: 0;
+  border: 1px solid gray;
+  text-align: left;
+  box-sizing: content-box;
+  width: 600px;
+}
+
+/* Section-4 */
+
+.sec-4 .child-box {
+  box-sizing: border-box;
+}

@@ -140,23 +140,23 @@ table {
   display: inline-block;
 }
 
-.box-1 {
+.solid {
   border: 5px solid black;
 }
 
-.box-2 {
+.double {
   border: 5px double black;
 }
 
-.box-3 {
+.dashed {
   border: 5px dashed black;
 }
 
-.box-4 {
+.dotted {
   border: 5px dotted black;
 }
 
-.box-5 {
+.no-border {
   border: none;
 }
 

@@ -132,13 +132,17 @@ table {
 
 /* Custom Styles */
 
-/* header */
-
 .container {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
+
+.border {
+  border: 1px solid black;
+}
+
+/* header */
 
 header {
   text-align: center;
@@ -162,7 +166,7 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.box-1 {
+.color-box {
   width: 6rem;
   height: 6rem;
   background-color: rgb(197, 252, 233);
@@ -179,26 +183,30 @@ ul {
 li {
   display: inline-block;
 }
-.one,
-.two,
-.three,
-.four {
-  height: 0.5rem;
-  width: 0.5rem;
+.yellow,
+.purple,
+.aqua,
+.black {
+  height: 0.8rem;
+  width: 0.8rem;
   border-radius: 50%;
   margin-left: 0.5rem;
 }
-.one {
-  background-color: greenyellow;
+
+.yellow {
+  background-color: yellow;
 }
-.two {
+
+.purple {
   background-color: purple;
 }
-.three {
+
+.aqua {
   background-color: aqua;
 }
-.four {
-  background-color: rgb(142, 140, 253);
+
+.black {
+  background-color: black;
 }
 
 /* Sec-2 */
@@ -208,7 +216,7 @@ h5 {
   margin-block: 1rem;
 }
 
-.box-a {
+.child-box {
   width: 180px;
   height: 100px;
   background-color: chartreuse;
@@ -216,7 +224,7 @@ h5 {
   margin: 10px;
 }
 
-.box-2 {
+.parent-box {
   font-size: 0;
   border: 1px solid gray;
   text-align: left;
@@ -224,25 +232,8 @@ h5 {
   width: 600px;
 }
 
-/* Section-3 */
-
-.box-b {
-  width: 180px;
-  height: 100px;
-  background-color: chartreuse;
-  display: inline-block;
-  margin: 10px;
-  border: 1px solid black;
-}
-
 /* Section-4 */
 
-.box-c {
-  width: 180px;
-  height: 100px;
-  background-color: chartreuse;
-  display: inline-block;
-  margin: 10px;
-  border: 1px solid black;
+.sec-4 .child-box {
   box-sizing: border-box;
 }
